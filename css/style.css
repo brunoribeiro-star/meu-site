@@ -748,6 +748,53 @@ main {
     color: #333;
   }
 
+  .criacao {
+    background-color: white;
+    padding: 100px 0;
+  }
+
+  .criacao-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .criacao-content h2 {
+    font-size: 65px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 30px;
+  }
+
+  .criacao-content h2,
+  .criacao-content p,
+  .criacao-content h3 {
+    width: 100%;
+    max-width: 700px;
+  }
+
+  .criacao-content p {
+    font-size: 20px;
+    padding-bottom: 30px;
+  }
+
+  .criacao-content img {
+    max-width: 1200px;
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  .criacao-content h3 {
+    color: #303236;
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 30px;
+  }
+
 @media (max-width: 999px) {
 
     body {
